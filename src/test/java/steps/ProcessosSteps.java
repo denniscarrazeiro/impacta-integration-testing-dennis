@@ -83,4 +83,14 @@ public class ProcessosSteps {
     public void usuarioDeveVerAMensagem(String mensagem){
         Processo.validarMensagem(mensagem);
     }
+
+    @Dado("^que o usuário gostaria de ver um processo com o ID \"([^\"]*)\"$")
+    public void queOUsuárioGostariaDeVerUmProcessoComOID(String id) {
+        Processo.id = id;
+    }
+
+    @Quando("^o usuário clicar em mostrar$")
+    public void oUsuárioClicarEmMostrar() {
+        Processo.getById();
+    }
 }
