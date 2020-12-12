@@ -14,8 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9612fcb8-eeb4-4a39-b1d6-e88d26a5f55c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/RunnerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/definition/Processo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/CRUDProcessos.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ProcessosSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/support/RESTSupport.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +58,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: CRUDProcessos">
+  <component name="RunManager" selected="JUnit.RunnerTest">
     <configuration name="Feature: CRUDProcessos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" />
@@ -132,8 +138,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="impacta-integration-testing-dennis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunnerTest" />
         <item itemvalue="Cucumber Java.Feature: CRUDProcessos" />
         <item itemvalue="Cucumber Java.Scenario: mostrar processo" />
         <item itemvalue="Cucumber Java.Scenario: adicionar processo (1)" />
@@ -168,22 +190,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1607803831296" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1607810437853">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1607812972502">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607810437853" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1607810437852">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607812972502" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1607812972501">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607810437852" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1607810437852">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607812972501" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1607812972501">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607810437852" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1607810437853">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607812972501" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1607812972501">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607810437853" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607812972501" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1607807869145">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

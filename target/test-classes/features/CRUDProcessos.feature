@@ -1,5 +1,5 @@
 #language: pt
-
+  @wip
   Funcionalidade: Crud processos
 
     Contexto: detalhamento
@@ -16,6 +16,11 @@
       E usuário informa data_agendamento com o valor igual a ""
       E usuário informa status com o valor igual a "Aguardando"
       E usuário informa observacao com o valor igual a ""
+
+    @ignore
+    Cenario: adicionar processo | POST (apenas para verificar o uso das tags)
+      Quando usuário clicar no botão de salvar
+      Entao usuário deve ver a mensagem "Usuário salvo com sucesso."
 
     Cenario: adicionar processo | POST
       Quando usuário clicar no botão de salvar
