@@ -83,7 +83,7 @@ public class ProcessosSteps {
 
     @Entao("^usuário deve ver a mensagem \"([^\"]*)\"$")
     public void usuarioDeveVerAMensagem(String mensagem){
-        Processo.validarMensagem(mensagem);
+        Processo.validarRetornoRequisicao(mensagem);
     }
 
     @Dado("^que o usuário gostaria de ver um processo com o ID \"([^\"]*)\"$")
@@ -110,5 +110,15 @@ public class ProcessosSteps {
     public void oUsuárioVisualizaOCampoComOValor(String campo, String valor) {
         String atual = Processo.recoverField(campo);
         Assert.assertEquals(valor,atual);
+    }
+
+    @Quando("^o usuario clicar em remover$")
+    public void oUsuarioClicarEmRemover() {
+        Processo.remover();
+    }
+
+    @Entao("^o usuario deve ver a mensagem \"([^\"]*)\"$")
+    public void oUsuarioDeveVerAMensagem(String mensagem){
+        Processo.validarRetornoRequisicao(mensagem);
     }
 }
