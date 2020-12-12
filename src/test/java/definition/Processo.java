@@ -37,7 +37,7 @@ public class Processo {
         Processo.clearFields();
     }
 
-    public static void validarMensagem(String type){
+    public static void validarRetornoRequisicao(String type){
         LazyMap messageJson = new LazyMap();
         messageJson.put("salvo com sucesso", 201);
         messageJson.put("Usuário salvo com sucesso.", 201);
@@ -45,7 +45,10 @@ public class Processo {
         messageJson.put("sucesso", 200);
         messageJson.put("success", 200);
         messageJson.put("no content", 204);
-        messageJson.put("not found", 404);messageJson.put("unauthorized", 401);
+        messageJson.put("sem conteúdo", 204);
+        messageJson.put("not found", 404);
+        messageJson.put("não encontrado", 404);
+        messageJson.put("unauthorized", 401);
         Integer status_code = RESTSupport.getResponseCode();
         Assert.assertEquals(messageJson.get(type),status_code);
     }
@@ -65,4 +68,12 @@ public class Processo {
     public static String recoverField(String campo) {
         return fieldsJson.get(campo).toString();
     }
+
+    public static void remover() {
+        RESTSupport.executeDelete(Processo.URL+"/"+Processo.id);
+    }
+
+
+
+
 }

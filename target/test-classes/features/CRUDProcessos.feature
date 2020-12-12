@@ -38,3 +38,10 @@
       Entao usuário deve ver a mensagem "sucesso"
       Quando o usuário clicar em mostrar
       Entao  o usuário visualiza o campo "assistente_social" com o valor "Merval"
+
+    Cenario: remover processo | DELETE
+      E usuário clicar no botão de salvar
+      Quando  o usuario clicar em remover
+      Entao  o usuario deve ver a mensagem "sem conteúdo"
+      Quando  o usuário clicar em mostrar
+      Entao  o usuario deve ver a mensagem "não encontrado"
