@@ -6,9 +6,10 @@ import support.RESTSupport;
 
 public class Processo {
 
-    private static final String URL = "http://agapito-server.herokuapp.com/processos/";
+    private static final String URL = "http://agapito-server.herokuapp.com/processos";
     private static LazyMap fieldsJson = new LazyMap();
     private static String lastProcesso;
+    public static String id;
 
     public static void clearFields(){
         fieldsJson.clear();
@@ -32,7 +33,7 @@ public class Processo {
 
     public static void save(){
         RESTSupport.executePost(Processo.getEndPoint(),Processo.getFields());
-        Processo.setLastProcesso(RESTSupport.key("id").toString());
+        Processo.id  = RESTSupport.key("id").toString();
         Processo.clearFields();
     }
 
@@ -47,6 +48,10 @@ public class Processo {
         messageJson.put("not found", 404);messageJson.put("unauthorized", 401);
         Integer status_code = RESTSupport.getResponseCode();
         Assert.assertEquals(messageJson.get(type),status_code);
+    }
+
+    public static void getById() {
+        RESTSupport.executeGet(Processo.URL+"/"+Processo.id);
     }
 
 }
