@@ -15,7 +15,7 @@ public class Processo {
         fieldsJson.clear();
     }
 
-    private static String getEndPoint() {
+    private static String getEndPoint(){
         return URL;
     }
 
@@ -54,4 +54,15 @@ public class Processo {
         RESTSupport.executeGet(Processo.URL+"/"+Processo.id);
     }
 
+    public static void fillField(String campo,String valor){
+        fieldsJson.put(campo,valor);
+    }
+
+    public static void editar(){
+        RESTSupport.executePut(Processo.URL+"/"+Processo.id,Processo.getFields());
+    }
+
+    public static String recoverField(String campo) {
+        return fieldsJson.get(campo).toString();
+    }
 }
