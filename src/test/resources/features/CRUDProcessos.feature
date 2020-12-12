@@ -31,7 +31,10 @@
       Quando o usuário clicar em mostrar
       Entao usuário deve ver a mensagem "sucesso"
 
-#    Cenario: atualizar processo | PUT
-#      Dado  que o usuário gostaria de atualizar um processo com o ID "2433"
-#      Quando o usuário clicar em atualizar
-#      Entao usuário deve ver a mensagem "sucesso"
+    Cenario: atualizar processo | PUT
+      E usuário clicar no botão de salvar
+      Quando alterar o campo "assistente_social" para o valor "Merval"
+      E o usuário clicar em editar
+      Entao usuário deve ver a mensagem "sucesso"
+      Quando o usuário clicar em mostrar
+      Entao  o usuário visualiza o campo "assistente_social" com o valor "Merval"

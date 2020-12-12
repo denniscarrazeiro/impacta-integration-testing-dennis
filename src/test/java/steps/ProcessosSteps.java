@@ -6,6 +6,8 @@ import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
 import definition.Processo;
+import org.junit.Assert;
+import support.RESTSupport;
 
 public class ProcessosSteps {
 
@@ -92,5 +94,21 @@ public class ProcessosSteps {
     @Quando("^o usuário clicar em mostrar$")
     public void oUsuárioClicarEmMostrar() {
         Processo.getById();
+    }
+
+    @Quando("^alterar o campo \"([^\"]*)\" para o valor \"([^\"]*)\"$")
+    public void alterarOCampoParaOValor(String campo, String valor){
+        Processo.fillField(campo,valor);
+    }
+
+    @E("^o usuário clicar em editar$")
+    public void oUsuárioClicarEmEditar() {
+        Processo.editar();
+    }
+
+    @Entao("^o usuário visualiza o campo \"([^\"]*)\" com o valor \"([^\"]*)\"$")
+    public void oUsuárioVisualizaOCampoComOValor(String campo, String valor) {
+        String atual = Processo.recoverField(campo);
+        Assert.assertEquals(valor,atual);
     }
 }
