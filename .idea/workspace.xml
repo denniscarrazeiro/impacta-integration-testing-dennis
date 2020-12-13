@@ -14,6 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9612fcb8-eeb4-4a39-b1d6-e88d26a5f55c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" afterDir="false" />
     </list>
@@ -52,7 +53,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Validação do post com esquema de cenário">
+  <component name="RunManager" selected="Maven.verify">
     <configuration name="Feature: CRUDProcessos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" />
@@ -147,6 +148,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="verify" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="verify" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: CRUDProcessos" />
+      <item itemvalue="Cucumber Java.Scenario: atualizar processo | PUT" />
+      <item itemvalue="Cucumber Java.Scenario: remover processo | DELETE" />
+      <item itemvalue="Cucumber Java.Scenario: Validação do post com esquema de cenário" />
+      <item itemvalue="JUnit.RunnerTest" />
+      <item itemvalue="Maven.verify" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: Validação do post com esquema de cenário" />
@@ -180,26 +214,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607818223526">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1607818223526" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1607803831296">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1607803831296" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1607816375956">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1607817476399">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607816375956" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1607816375956">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607817476399" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1607817476398">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607816375956" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1607816375956">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607817476398" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1607817476396">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607816375956" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1607816375956">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607817476396" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1607817476399">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607816375956" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607817476399" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1607807869145">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

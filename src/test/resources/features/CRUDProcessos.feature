@@ -67,3 +67,4 @@
       | vara |  numero_processo | natureza | partes          | urgente | arbitramento | assistente_social | data_entrada | data_saida | data_agendamento | status           | observacao |
       | 1    | 1                | usucapião| Gilmar X Zaquel | S       | S            | Maria Isabel      | 12/12/2020   | 12/12/2030 |                  | Aguardando       |            |
       | 2    | 2                | Separação| Gedeão X Cleide | S       | S            | Moacir Lopes      | 13/12/2020   | 13/12/2030 |                  | Aguardando       |            |
+      
