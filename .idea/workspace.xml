@@ -15,12 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9612fcb8-eeb4-4a39-b1d6-e88d26a5f55c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/definition/Processo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definition/Processo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ProcessosSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ProcessosSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/definition/Processo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/definition/Processo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/CRUDProcessos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/CRUDProcessos.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ProcessosSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ProcessosSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: remover processo | DELETE">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Validação do post com esquema de cenário">
     <configuration name="Feature: CRUDProcessos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" />
@@ -66,6 +61,26 @@
       <module name="impacta-integration-testing-dennis" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: CRUDProcessos" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Validação do post com esquema de cenário" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="impacta-integration-testing-dennis" />
+      <option name="NAME_FILTER" value="^Validação do post com esquema de cenário$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Validação do post com esquema de cenário$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validação do post com esquema de cenário" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -86,26 +101,6 @@
       <option name="NAME_FILTER" value="^atualizar processo \| PUT$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^atualizar processo \| PUT$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: atualizar processo | PUT" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: mostrar processo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="impacta-integration-testing-dennis" />
-      <option name="NAME_FILTER" value="^mostrar processo$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^mostrar processo$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: mostrar processo" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Validação do post com esquema de cenário" />
         <item itemvalue="Cucumber Java.Scenario: remover processo | DELETE" />
         <item itemvalue="Cucumber Java.Feature: CRUDProcessos" />
         <item itemvalue="Cucumber Java.Scenario: atualizar processo | PUT" />
         <item itemvalue="JUnit.RunnerTest" />
-        <item itemvalue="Cucumber Java.Scenario: mostrar processo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,22 +184,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1607803831296" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1607816036928">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1607816375956">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607816036928" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1607816036926">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607816375956" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1607816375956">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607816036926" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1607816036925">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607816375956" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1607816375956">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607816036925" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1607816036926">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607816375956" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1607816375956">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607816036926" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607816375956" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1607807869145">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

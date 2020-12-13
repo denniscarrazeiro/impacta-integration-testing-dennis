@@ -45,3 +45,25 @@
       Entao  o usuario deve ver a mensagem "sem conteúdo"
       Quando  o usuário clicar em mostrar
       Entao  o usuario deve ver a mensagem "não encontrado"
+
+    Esquema do Cenario: Validação do post com esquema de cenário
+      Dado que o usuário gostaria de salvar um processo
+      E usuário informa vara com o valor igual a "<vara>"
+      E usuário informa numero_processo com o valor igual a "<numero_processo>"
+      E usuário informa natureza  com o valor igual a "<natureza>"
+      E usuário informa partes com o valor igual a "<partes>"
+      E usuário informa urgente com o valor igual a "<urgente>"
+      E usuário informa arbitramento com o valor igual a "<arbitramento>"
+      E usuário informa assistente_social com o valor igual a "<assistente_social>"
+      E usuário informa data_entrada  com o valor igual a "<data_entrada>"
+      E usuário informa data_saida com o valor igual a "<data_saida>"
+      E usuário informa data_agendamento com o valor igual a "<data_agendamento>"
+      E usuário informa status com o valor igual a "<status>"
+      E usuário informa observacao com o valor igual a "<observacao>"
+      Quando usuário clicar no botão de salvar
+      Entao o usuario deve ver a mensagem "Usuário salvo com sucesso."
+
+      Exemplos:
+      | vara |  numero_processo | natureza | partes          | urgente | arbitramento | assistente_social | data_entrada | data_saida | data_agendamento | status           | observacao |
+      | 1    | 1                | usucapião| Gilmar X Zaquel | S       | S            | Maria Isabel      | 12/12/2020   | 12/12/2030 |                  | Aguardando       |            |
+      | 2    | 2                | Separação| Gedeão X Cleide | S       | S            | Moacir Lopes      | 13/12/2020   | 13/12/2030 |                  | Aguardando       |            |
