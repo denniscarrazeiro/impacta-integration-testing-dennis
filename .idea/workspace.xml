@@ -16,7 +16,7 @@
     <list default="true" id="9612fcb8-eeb4-4a39-b1d6-e88d26a5f55c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/CucumberReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/CucumberReport.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Maven.verify">
+  <component name="RunManager" selected="Cucumber Java.Feature: CRUDProcessos">
     <configuration name="Feature: CRUDProcessos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CRUDProcessos.feature" />
@@ -183,9 +183,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: CRUDProcessos" />
         <item itemvalue="Cucumber Java.Scenario: Validação do post com esquema de cenário" />
         <item itemvalue="Cucumber Java.Scenario: remover processo | DELETE" />
-        <item itemvalue="Cucumber Java.Feature: CRUDProcessos" />
         <item itemvalue="Cucumber Java.Scenario: atualizar processo | PUT" />
         <item itemvalue="JUnit.RunnerTest" />
       </list>
@@ -222,22 +222,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1607803831296" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1607817476399">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1607818790844">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607817476399" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1607817476398">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607818790844" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1607818790843">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607817476398" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1607817476396">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607818790843" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1607818790843">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607817476396" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1607817476399">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607818790842" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1607818790843">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607817476399" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607818790843" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1607807869145">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

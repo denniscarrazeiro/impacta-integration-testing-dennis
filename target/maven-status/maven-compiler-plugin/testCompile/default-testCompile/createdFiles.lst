@@ -1,0 +1,5 @@
+definition\Processo.class
+runner\RunnerTest.class
+steps\ProcessosSteps.class
+support\RESTSupport.class
+steps\Hooks.class
